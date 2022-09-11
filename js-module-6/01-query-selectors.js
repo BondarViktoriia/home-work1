@@ -6,8 +6,8 @@
 
 // // console.dir(document);
 
-// const navEl = document.querySelector('ul');
-// console.log(navEl);
+const navEl = document.querySelector('ul');
+console.log(navEl);
 
 // const navItemEl = document.querySelector('.site-nav__item');
 // console.log(navItemEl); ///Находит первое совпадение с верха документа, если
@@ -28,10 +28,10 @@
 
 //  Код ввыполняеться после того как постороенно DOM- дерево HTML
 // Делаем магию
-const magicBtn = document.querySelector('.js-magic-btn');
-magicBtn.addEventListener('click', () => {
-    const navItemEl = document.querySelector('.site-nav__item');
-    console.log(navItemEl);
-    const navLinks = document.querySelectorAll('.site-nav__link');
-console.log(navLinks);
-})
+// const magicBtn = document.querySelector('.js-magic-btn');
+// magicBtn.addEventListener('click', () => {
+//     const navItemEl = document.querySelector('.site-nav__item');
+//     console.log(navItemEl);
+//     const navLinks = document.querySelectorAll('.site-nav__link');
+// console.log(navLinks);
+// })
